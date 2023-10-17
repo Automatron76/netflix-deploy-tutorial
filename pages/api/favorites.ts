@@ -10,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             return res.status(405).end();
         }
 
-        const { currentUser } = await serverAuth(req, res);
+        const { currentUser } = await serverAuth(req);
 
         const favoriteMovies = await prismadb.movie.findMany({
             where: {
