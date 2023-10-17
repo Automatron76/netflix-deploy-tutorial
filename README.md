@@ -2,6 +2,8 @@ Netflix clone, build following this tutorial https://www.youtube.com/watch?v=mqU
 
 Thank you Antonio for the content.
 
+Link to Vercel deployment: netflix-deploy-tutorial-l6z1qxghp-automatron76.vercel.app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
